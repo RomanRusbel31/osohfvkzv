@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(253, 187, 187);
+    min-width: 320px;
+    margin: 0;
+    padding: 0;
+    
+}
+.nav{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(245, 72, 245);
+    width: 100%;
+    
+}
+.nav-ul{
+    padding: 0%;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nav-ul li{
+    display: inline-flex;
+}
+.nav-ul a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 20px;
+    color: white;
+    display: block;
+}
+.nav-ul a:hover{
+    color: rgb(88, 16, 76);
+}
+.container{
+    display: flex;
+    
+}
+.stas{
+    text-align: center;
+    font-size: 30px;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5px;
+}
+.imgg{
+    max-width: 500px;
+    max-height: 480px;
+    height: auto;
+}
+.txt{
+    font-size: 25px;
+}
